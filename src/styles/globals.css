@@ -1,0 +1,268 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.footer-fix {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* menu styles */
+.header-menu {
+  width: 100%;
+  height: auto;
+  background: top center;
+}
+
+/* HOME PAGE  */
+
+.header-style {
+  background-size: cover !important;
+  overflow: hidden;
+  width: 100%;
+  transition: 0.5s;
+  background: url(https://res.cloudinary.com/dcx1rcwvu/image/upload/v1638211714/cocoMAD/navbar6transp_nabtif.png) no-repeat top center;
+}
+
+.nav-bar{
+  background-color: rgb(231, 170, 107);
+}
+
+.logo{
+  font-size: 25px;
+}
+.back-arrow {
+  font-size: 1.5rem;
+  color: whitesmoke;
+  text-decoration: none;
+  transition: 0.4s;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+}
+
+.back-arrow:link, .back-arrow:active {
+  color: rosybrown;
+}
+
+.back-arrow:hover {
+  color: rgb(146, 210, 226);
+}
+
+.tarjetas p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+.tarjetas .accordion-header button {
+  margin: 0;
+  text-align: center;
+  background-color: rgb(231, 170, 107) !important;
+  color: white !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 20px;
+  padding: 0.5rem 1rem;
+}
+.boton-artesanal-cel {
+  background: rgb(146, 210, 226);
+  padding: 5px;
+  height: 5rem;
+  color: whitesmoke;
+  border-color: rgb(146, 210, 226);
+  border-radius: 0.25rem;
+  font-size: 15px;
+  font-family: 'Julius Sans One', sans-serif;
+  transition: 0.4s;
+}
+
+.boton-artesanal-cel:hover {
+  background: whitesmoke;
+  transition-duration: 0.5s;
+  padding: 5px;
+  color: rosybrown;
+  border-color: whitesmoke;
+  border-radius: 0.25rem;
+  font-size: 15px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+.boton-artesanal-cel-enc {
+  background: rgb(231, 170, 107);
+  padding: 5px;
+  height: 5rem;
+  color: whitesmoke;
+  border-color: rgb(231, 170, 107);
+  border-radius: 0.25rem;
+  font-size: 15px;
+  font-family: 'Julius Sans One', sans-serif;
+  transition: 0.4s;
+}
+
+.boton-artesanal-cel-enc:hover {
+  background: whitesmoke;
+  transition-duration: 0.5s;
+  padding: 5px;
+  color: rgb(231, 170, 107);
+  border-color: whitesmoke;
+  border-radius: 0.25rem;
+  font-size: 15px;
+  font-family: 'Julius Sans One', sans-serif;
+}
+
+
+/* NAVBAR */
+.contenedor-small {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+  .logo-container-small {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+  }
+  .logo-container-small a {
+      text-align: center;
+  } 
+
+  
+.nav-logo-desktop{
+  max-width: 100px;
+  }
+  
+@media only screen and (max-width: 768px){
+  #main-img-small{
+     content:url(https://res.cloudinary.com/dcx1rcwvu/image/upload/v1647437646/cocoMAD/LOGO_CON_CIRCULO-02_1_ya2rd3.png);
+  }
+}
+
+/* FOOTER */
+
+.footer {
+  background-color:rosybrown;
+  padding: 1rem 0rem 0rem 0rem;
+  font-family: 'Julius Sans One', sans-serif;
+  color: whitesmoke;
+}
+.footer-menu{
+  background-color: none;
+}
+
+.footer p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.footer a :hover {
+  color: rgb(146, 210, 226);
+  text-shadow: 4px 3px 2px rgba(58, 57, 57, 0.575), 4px 4px 5px rgba(112, 112, 112, 0.493);
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  margin: 0 10px;
+  color: rgb(255, 255, 255);
+  transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 992px) {
+  .footer p {
+     font-size: 20px;
+  }
+
+  .footer a {
+     font-size: 15px;
+  }
+
+  .social-icon {
+     font-size: 1.5rem;
+  }
+}
+
+.direccion p {
+  font-size: 12px;
+}
+
+.subtitle-footer p{
+  font-size: 12px;
+}
+
+
+.links {
+  list-style: none;
+  font-size: 15px;
+}
+.links hr { 
+  width: 50px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 5px;
+}
+
+.links a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.links a:hover {
+  color: rgb(146, 210, 226);
+}
+
+.bottom-footer{
+  background-color: grey;
+}
+.volverArriba {
+  background-color: grey;
+  border: none;
+  color: white;
+}
+.volverArriba:hover {
+  background-color: grey;
+  border: none;
+  color: rgb(146, 210, 226);
+}
+@media only screen and (max-width: 640px) {
+  .bottom-footer {
+     font-size: 15px;
+  }
+}
+
+/* Para llevar */
+
+.card-home {
+  border: none;
+  font-family: 'Julius Sans One', sans-serif;
+  border: none;
+}
+.titulo-card-home{
+  font-size: 25px;
+  font-size: bold;
+}
+
+.glass-card {
+  backdrop-filter: blur(10px) saturate(180%);
+  -webkit-backdrop-filter: blur(10px) saturate(180%);
+  background-color: #232b3a88;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.oracion-card{
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+}
