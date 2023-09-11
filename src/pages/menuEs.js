@@ -18,7 +18,6 @@ export default function MenuEs() {
             </div>
             <div>
                 <img src="https://res.cloudinary.com/dcx1rcwvu/image/upload/v1693857664/cocoMAD/Menu/Parte_1_header_menu_pwnebx.png" alt="" className="header-menu"  />
-                <img src="https://res.cloudinary.com/dcx1rcwvu/image/upload/v1693857664/cocoMAD/Menu/parte1_menu_vvdk7f.png" alt=""  className="header-menu" />
                 <img src="https://res.cloudinary.com/dcx1rcwvu/image/upload/v1693857664/cocoMAD/Menu/parte_2_menu_iwrvvc.png" alt="" className="header-menu" />
                 <img src="https://res.cloudinary.com/dcx1rcwvu/image/upload/v1693857664/cocoMAD/Menu/parte_3_menu_m4m7xx.png" alt="" className="header-menu" />
                 <img src="https://res.cloudinary.com/dcx1rcwvu/image/upload/v1693857663/cocoMAD/Menu/parte_4_header_middle_menu_mb3cg3.png" alt="" className="header-menu"  />
